@@ -1,0 +1,75 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #222;
+    color: lightgray;
+}
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.card {
+    background-color: #222;
+    color: lightgray;
+}
+
+.responsive-width {
+    width: 90%;
+}
+
+/* For tablets */
+
+@media (min-width: 768px) {
+    .responsive-width {
+        width: 75%;
+    }
+}
+
+/* For Desktops and Laptops */
+
+@media (min-width: 1025px) {
+    .responsive-width {
+        width: 50%;
+    }
+}
+
+.cards-container-width {
+    width: 75%;
+}
+
+.landing-page-background {
+    background-image: url("./assets/index2.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.landing-page-header {
+    color: white;
+    font-size: 48px;
+}
+
+.landing-page-text {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+@media (min-width: 1025px) {
+    .landing-page-text {
+        font-size: 18px;
+    }
+}
